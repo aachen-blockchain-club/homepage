@@ -23,13 +23,13 @@ const TemplateWrapper = ({ children }) => {
         />
         <link
           rel="icon"
-          type="image/png"
+          type="image/svg+xml"
           href={`${withPrefix("/")}img/favicon.svg`}
           sizes="32x32"
         />
         <link
           rel="icon"
-          type="image/png"
+          type="image/svg+xml"
           href={`${withPrefix("/")}img/favicon.svg`}
           sizes="16x16"
         />
