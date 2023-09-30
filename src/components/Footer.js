@@ -2,10 +2,10 @@ import * as React from "react";
 import { Link } from "gatsby";
 
 import logo from "../img/logo-mint.svg";
-import facebook from "../img/social/facebook.svg";
 import instagram from "../img/social/instagram.svg";
-import twitter from "../img/social/twitter.svg";
-import vimeo from "../img/social/vimeo.svg";
+import linkedin from "../img/social/linkedin.svg";
+import discord from "../img/social/discord.svg";
+import whatsapp from "../img/social/whatsapp.svg";
 
 const Footer = () => {
   
@@ -76,32 +76,32 @@ const Footer = () => {
                 </section>
               </div>
               <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="twitter" href="https://twitter.com">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com">
+                <a title="instagram" href="https://www.instagram.com/aachen_blockchain/" target="_blank" rel="noopener noreferrer">
                   <img
                     src={instagram}
                     alt="Instagram"
                     style={{ width: "1em", height: "1em" }}
                   />
                 </a>
-                <a title="vimeo" href="https://vimeo.com">
+                <a title="linkedin" href="https://www.linkedin.com/company/aachen-blockchain/" target="_blank" rel="noopener noreferrer">
                   <img
-                    src={vimeo}
-                    alt="Vimeo"
+                    src={linkedin}
+                    alt="linkedin"
+                    style={{ width: "1em", height: "1em" }}
+                  />
+                </a>
+                <a title="discord" href="https://discord.gg/BG2Gdg4dsD" target="_blank" rel="noopener noreferrer">
+                  <img
+                    className="fas fa-lg"
+                    src={discord}
+                    alt="discord"
+                    style={{ width: "1em", height: "1em" }}
+                  />
+                </a>
+                <a title="whatsapp" href="https://chat.whatsapp.com/LvDCwGq0zSsFxflcxMqUZH" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={whatsapp}
+                    alt="whatsapp"
                     style={{ width: "1em", height: "1em" }}
                   />
                 </a>
