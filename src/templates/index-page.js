@@ -31,10 +31,10 @@ export const IndexPageTemplate = ({
                 <div className="content">
                   <div className="content">
                     <div className="tile">
-                      <h1 className="title is-size-3">{mainpitch.title}</h1>
+                      <h1 className="title is-size-3-tablet is-size-4-mobile">{mainpitch.title}</h1>
                     </div>
                     <div className="tile">
-                      <p className="is-size-5">{mainpitch.description}</p>
+                      <p className="is-size-5-tablet">{mainpitch.description}</p>
                     </div>
                   </div>
                   <img 
@@ -45,10 +45,10 @@ export const IndexPageTemplate = ({
                   />
                   <div className="columns">
                     <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-3">
+                      <h3 className="has-text-weight-semibold is-size-3-tablet is-size-4-mobile">
                         {intro.heading}
                       </h3>
-                      <p className="is-size-5">{intro.description}</p>
+                      <p className="is-size-5-tablet">{intro.description}</p>
                     </div>
                   </div>
                   <Features gridItems={intro.blurbs} />
@@ -60,10 +60,10 @@ export const IndexPageTemplate = ({
                     </div>
                   </div>
                   <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-3">
-                        {activity.heading}
-                      </h3>
-                      <p className="is-size-5">{activity.description}</p>
+                    <h3 className="has-text-weight-semibold is-size-3-tablet is-size-4-mobile">
+                      {activity.heading}
+                    </h3>
+                    <p className="is-size-5-tablet">{activity.description}</p>
                   </div>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
