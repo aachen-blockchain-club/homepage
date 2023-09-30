@@ -1,7 +1,6 @@
 ---
 heading: heading?
 templateKey: index-page
-image: /img/abc-background.png
 title: empowering aachen, one block at a time
 subheading: unraveling the secrets of blockchain technology
 mainpitch:
@@ -68,6 +67,7 @@ main:
   image3:
     alt: Coffee beans!
     image: /img/products-grid1.jpg
+image: /img/banner.png
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
