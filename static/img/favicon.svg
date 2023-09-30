@@ -1,4 +1,1 @@
-<!-- favicon.svg -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-    <text y=".9em" font-size="90">🚀</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:lucid="lucid" width="226" height="230"><g transform="translate(-587 -387)" lucid:page-tab-id="0_0"><path d="M800 431.6a12.67 12.67 0 0 0-4.64-9.8l-21.97-18a16.8 16.8 0 0 0-10.65-3.8H631a14.25 14.25 0 0 0-10.2 4.3l-16.6 17a14.73 14.73 0 0 0-4.2 10.3v141.5a14.73 14.73 0 0 0 4.2 10.3l16.6 17a14.25 14.25 0 0 0 10.2 4.3h138a14.25 14.25 0 0 0 10.2-4.3l16.6-17a14.73 14.73 0 0 0 4.2-10.28z" stroke="#c3f7c8" stroke-width="10" fill-opacity="0"/><use xlink:href="#a" transform="matrix(1,0,0,1,600,400) translate(65.54666666666672 138.97999999999993)"/><defs><path fill="#c3f7c8" d="M261-700h124L641 0H503l-57-155H200L143 0H5zm155 433c-32-88-60-180-95-266l-90 266h185" id="b"/><use transform="matrix(0.10666666666666648,0,0,0.10666666666666648,0,0)" xlink:href="#b" id="a"/></defs></g></svg>

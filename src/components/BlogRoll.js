@@ -37,13 +37,14 @@ const BlogRollTemplate = (props) => {
                 ) }
                 <p className="post-meta">
                   <Link
-                    className="title has-text-primary is-size-4"
+                    className="title is-size-4 title-font"
+                    style={{ textDecoration: "none" }}
                     to={post.fields.slug}
                   >
                     {post.frontmatter.title}
                   </Link>
-                  <span> &bull; </span>
-                  <span className="subtitle is-size-5 is-block">
+                  <br/>
+                  <span className="is-size-7">
                     {post.frontmatter.date}
                   </span>
                 </p>
@@ -52,7 +53,7 @@ const BlogRollTemplate = (props) => {
                 {post.excerpt}
                 <br />
                 <br />
-                <Link className="button" to={post.fields.slug}>
+                <Link className="button is-black" to={post.fields.slug}>
                   Keep Reading →
                 </Link>
               </p>

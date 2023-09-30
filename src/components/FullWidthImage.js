@@ -4,7 +4,6 @@ import { GatsbyImage } from "gatsby-plugin-image";
 
 export default function FullWidthImage(props) {
   const {
-    height = 800,
     img,
     title,
     subheading

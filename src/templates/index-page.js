@@ -54,7 +54,7 @@ export const IndexPageTemplate = ({
                   <Features gridItems={intro.blurbs} />
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/products">
+                      <Link className="button" to="/products">
                         See all products
                       </Link>
                     </div>
@@ -65,9 +65,11 @@ export const IndexPageTemplate = ({
                     </h3>
                     <p className="is-size-5-tablet">{activity.description}</p>
                   </div>
-                  <BlogRoll />
+                  <div className="column my-4">
+                    <BlogRoll />
+                  </div>
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
+                    <Link className="button" to="/blog">
                       Read more
                     </Link>
                   </div>
