@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-netlify-cms",
-  "description": "Example Gatsby, and Netlify CMS project",
+  "name": "abc-homepage",
+  "description": "Homepage for the Aachen Blockchain Club",
   "version": "1.1.3",
   "author": "Austin Green",
   "dependencies": {
