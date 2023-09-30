@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
+import logo from "../img/logo.svg";
 
 import Layout from "../components/Layout";
 import Features from "../components/Features";
@@ -12,11 +13,10 @@ import FullWidthImage from "../components/FullWidthImage";
 export const IndexPageTemplate = ({
   image,
   title,
-  heading,
   subheading,
   mainpitch,
-  description,
   intro,
+  activity,
 }) => {
   const heroImage = getImage(image) || image;
 
@@ -31,18 +31,24 @@ export const IndexPageTemplate = ({
                 <div className="content">
                   <div className="content">
                     <div className="tile">
-                      <h1 className="title">{mainpitch.title}</h1>
+                      <h1 className="title is-size-3">{mainpitch.title}</h1>
                     </div>
                     <div className="tile">
-                      <h3 className="subtitle">{mainpitch.description}</h3>
+                      <p className="is-size-5">{mainpitch.description}</p>
                     </div>
                   </div>
+                  <img 
+                    className="column mx-auto my-6"
+                    style={{ width: "10rem", opacity: 0.1 }}
+                    src={logo} 
+                    alt="Aachen Blockchain Club" 
+                  />
                   <div className="columns">
                     <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-2">
-                        {heading}
+                      <h3 className="has-text-weight-semibold is-size-3">
+                        {intro.heading}
                       </h3>
-                      <p>{description}</p>
+                      <p className="is-size-5">{intro.description}</p>
                     </div>
                   </div>
                   <Features gridItems={intro.blurbs} />
@@ -54,15 +60,16 @@ export const IndexPageTemplate = ({
                     </div>
                   </div>
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      Latest stories
-                    </h3>
-                    <BlogRoll />
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/blog">
-                        Read more
-                      </Link>
-                    </div>
+                      <h3 className="has-text-weight-semibold is-size-3">
+                        {activity.heading}
+                      </h3>
+                      <p className="is-size-5">{activity.description}</p>
+                  </div>
+                  <BlogRoll />
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/blog">
+                      Read more
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -77,12 +84,16 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  heading: PropTypes.string,
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
-  description: PropTypes.string,
   intro: PropTypes.shape({
+    heading: PropTypes.string,
+    description: PropTypes.string,
     blurbs: PropTypes.array,
+  }),
+  activity: PropTypes.shape({
+    heading: PropTypes.string,
+    description: PropTypes.string,
   }),
 };
 
@@ -94,11 +105,10 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
-        heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
         intro={frontmatter.intro}
+        activity={frontmatter.activity}
       />
     </Layout>
   );
@@ -124,14 +134,14 @@ export const pageQuery = graphql`
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)
           }
         }
-        heading
         subheading
         mainpitch {
           title
           description
         }
-        description
         intro {
+          heading
+          description
           blurbs {
             image {
               childImageSharp {
@@ -140,6 +150,8 @@ export const pageQuery = graphql`
             }
             text
           }
+        }
+        activity {
           heading
           description
         }

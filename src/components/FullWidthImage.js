@@ -4,11 +4,10 @@ import { GatsbyImage } from "gatsby-plugin-image";
 
 export default function FullWidthImage(props) {
   const {
-    height = 400,
+    height = 800,
     img,
     title,
-    subheading,
-    imgPosition = "top left",
+    subheading
   } = props;
 
   return (
@@ -24,7 +23,6 @@ export default function FullWidthImage(props) {
           <img
             src={img}
             objectFit={"cover"}
-            objectPosition={imgPosition}
             style={{
               gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
@@ -38,7 +36,6 @@ export default function FullWidthImage(props) {
           <GatsbyImage
             image={img}
             objectFit={"cover"}
-            objectPosition={imgPosition}
             style={{
               gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
@@ -66,31 +63,14 @@ export default function FullWidthImage(props) {
             {/* Any content here will be centered in the component */}
             {title && (
               <h1
-                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-                style={{
-                  boxShadow:
-                    "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(255, 68, 0)",
-                  color: "white",
-                  lineHeight: "1",
-                  padding: "0.25em",
-                }}
+                className="is-capitalized title-font is-primary has-background-primary px-6 pt-1 is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
               >
                 {title}
               </h1>
             )}
             {subheading && (
               <h3
-                className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-                style={{
-                  boxShadow:
-                    "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(255, 68, 0)",
-                  color: "white",
-                  lineHeight: "1",
-                  padding: "0.25rem",
-                  marginTop: "0.5rem",
-                }}
+                className="is-capitalized title-font is-primary px-6 mt-4 is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
               >
                 {subheading}
               </h3>
