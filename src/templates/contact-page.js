@@ -19,6 +19,7 @@ export const ContactPageTemplate = ({ title, content, contentComponent }) => {
                                 className="content"
                                 content={content}
                             />
+                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSee_vnufQsCanbgZVfsA9ItPpTK43k_nLy_ZpHBM-RYgBXjZw/viewform?embedded=true" className="column is-12" height="650" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                         </div>
                     </div>
                 </div>
