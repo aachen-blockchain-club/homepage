@@ -101,7 +101,7 @@ const Navbar = () => {
                     <li className="has-text-centered navbar-end">
                         <a
                             className="navbar-item"
-                            href="https://github.com/mohamedalichelbi/abc-homepage"
+                            href="https://github.com/aachen-blockchain-club/homepage"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
