@@ -1,7 +1,7 @@
 ---
 heading: heading?
 templateKey: index-page
-image: /img/banner.png
+image: /img/banner-blue-vibrant.jpg
 title: empowering aachen, one block at a time
 subheading: unraveling the secrets of blockchain technology
 mainpitch:
