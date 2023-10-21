@@ -1,8 +1,10 @@
 @import ./variables.sass
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Climate+Crisis&family=Gochi+Hand&family=Modak&family=Pixelify+Sans&display=swap')
+// @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Climate+Crisis&family=Gochi+Hand&family=Modak&family=Pixelify+Sans&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@1,800&display=swap')
 
 .title-font
-  font-family: 'Bricolage Grotesque'
+  font-family: "Sofia Sans",
+  font-weight: 800,
 
 .content .taglist
   list-style: none
@@ -85,9 +87,9 @@ footer.footer
 // blog roll
 .blog-list-item
   border-radius: $radius-large
-  background-color: transparentize($abc-mint, 0.7)
+  background-color: transparentize($abc-blue, 0.7)
   &.is-featured
-    background-color: transparentize($abc-teal, 0.7)
+    background-color: transparentize($abc-purple, 0.7)
   header
     display: flex
     margin-bottom: 1em
