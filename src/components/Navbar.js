@@ -87,17 +87,6 @@ const Navbar = () => {
                             Contact
                         </Link>
                     </li>
-                    <li
-                        className="navbar-item"
-                        style={{ padding: "0px" }}
-                    >
-                        <Link
-                            className="navbar-item"
-                            to="/contact/examples"
-                        >
-                            Form Examples
-                        </Link>
-                    </li>
                     <li className="has-text-centered navbar-end">
                         <a
                             className="navbar-item"

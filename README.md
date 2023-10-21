@@ -2,9 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/730e9dc2-24a4-4b07-a319-3a67a6531c89/deploy-status)](https://app.netlify.com/sites/abc-homepage/deploys)
 
-**Note:** This starter uses [Gatsby v4](https://www.gatsbyjs.com/gatsby-4/).
-
-The website is built with [Gatsby](https://www.gatsbyjs.org/), and [Decap CMS](https://www.decapcms.org).
+The website is built with [Gatsby v4](https://www.gatsbyjs.com/gatsby-4/), and [Decap CMS](https://www.decapcms.org).
 
 It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
 
