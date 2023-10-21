@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: aachen-blockchain-club/homepage
   branch: main
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
