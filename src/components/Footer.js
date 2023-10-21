@@ -6,6 +6,7 @@ import instagram from "../img/social/instagram.svg";
 import linkedin from "../img/social/linkedin.svg";
 import discord from "../img/social/discord.svg";
 import whatsapp from "../img/social/whatsapp.svg";
+import github from "../img/social/github.svg"
 
 const Footer = () => {
     return (
@@ -134,6 +135,18 @@ const Footer = () => {
                                 <img
                                     src={whatsapp}
                                     alt="whatsapp"
+                                    style={{ width: "1em", height: "1em" }}
+                                />
+                            </a>
+                            <a
+                                title="github"
+                                href="https://github.com/aachen-blockchain-club"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img
+                                    src={github}
+                                    alt="github"
                                     style={{ width: "1em", height: "1em" }}
                                 />
                             </a>

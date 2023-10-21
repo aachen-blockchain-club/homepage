@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
 import logo from "../img/logo.svg";
 
 const Navbar = () => {
@@ -86,21 +85,6 @@ const Navbar = () => {
                         >
                             Contact
                         </Link>
-                    </li>
-                    <li className="has-text-centered navbar-end">
-                        <a
-                            className="navbar-item"
-                            href="https://github.com/aachen-blockchain-club/homepage"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <span className="icon">
-                                <img
-                                    src={github}
-                                    alt="Github"
-                                />
-                            </span>
-                        </a>
                     </li>
                 </ul>
             </div>
