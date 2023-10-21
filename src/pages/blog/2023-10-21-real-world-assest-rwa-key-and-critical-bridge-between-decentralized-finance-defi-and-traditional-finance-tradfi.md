@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
-title: Real World Assest (RWA)- Key and Critical Bridge between Decentralized
-  Finance (DeFi) and Traditional Finance (TradFi)
-date: 2023-10-21T13:41:55.786Z
+title: Real World Assets (RWAs)- Key bridge between decentralized and
+  traditional finance
+date: 2023-10-21T17:06:45.719Z
 description: DeFi provides an immense potential for the untapped possibilities
   of Real World Assets.
 featuredpost: true
@@ -13,7 +13,7 @@ tags:
   - Blockchain
   - Web3
 ---
-Web 3.0, Blockchain, and RWA’s does that ring any bells? As truly said, “Curiosity is the wick in the candle of learning.” — William A. Ward. 
+Web 3.0, Blockchain, and RWAs, does that ring any bells? As truly said, “*Curiosity is the wick in the candle of learning.*” — William A. Ward. 
 
 A few years back, to me, it sounded mindboggling. The world is transforming exponentially, which seemed impossible a few decades ago. Web 1.0 and Web 2.0 played a crucial role in the transformation we observe today. We have been surfing the wave of Web 3.0, which has an enormous and infinite potential to shape the world for a better future. Web 3.0 is also known as Semantic Web. It is a progressive iteration of the internet that creates digital information with machine-understandable meaning and context. It has several key features, such as Decentralization, Smart Contracts, Data Ownership and Privacy, and Decentralized Applications (DApps), to name a few. It enables more precise data interpretation, efficient knowledge retrieval, and improved automation of tasks within an interconnected and intelligent web environment.
 
@@ -25,13 +25,11 @@ Since the advent of financial systems, we have established centralized instituti
 
 Decentralized Finance is a revolutionary movement within the financial sector that leverages blockchain technology to create an open and decentralized ecosystem for various financial activities. Under the umbrella of DeFi, traditional financial services are replicated using smart contracts on blockchain networks, allowing individuals to engage in activities such as lending, borrowing, trading, and earning interest without the need for intermediaries or central authorities and providing the transfer of power to everyone. DeFi platforms operate transparently and autonomously, often resulting in quicker transactions, reduced fees, and increased accessibility to financial services for a global audience.
 
-## **Integrating RWA with Physical Asset — Real World DeFi:**
+## **Integrating RWAs with physical assets — Real World DeFi:**
 
 The emergence of Real World Assets marks an evolutionary milestone in the convergence of traditional finance with decentralized technologies. By tokenizing RWAs, the boundaries between physical and digital assets begin to blur, ushering in an era of unprecedented financial opportunities. Tokenization enables fractional ownership, thereby democratizing access to investments that were previously confined to a select few.
 
 ![](/img/picture2.png)
-
-
 
 ## **Working of RWAs:**
 
@@ -39,21 +37,15 @@ To bridge the gap between TradFi and DeFi, RWAs can play a significant role. Rea
 
 To transfer the power to the users by tokenization, an asset protocol defines the standardized framework regarding how RWAs are represented, tokenized, managed, and transacted on a blockchain. It further provides a structured approach to ensure that the digital tokens representing ownership of RWAs are created, transferred, and managed consistently and securely. The protocol is the foundation for tokenization, allowing for interoperability, transparency, and trust within the digital ecosystem.
 
-
-
 ## **Tokenization of RWAs:**
 
 The tokenization process involves transforming real-world assets into digital tokens on a blockchain, enabling fractional ownership and enhanced liquidity. This process leverages blockchain’s secure and transparent characteristics. The exact working principles may vary, but the generic process involves ironing out the deal terms before minting tokenized representations of the asset on-chain.
 
 ![](/img/picture3.png)
 
-
-
 The RWA ecosystem is exceptionally diverse and expanding exponentially as more projects enter the market. Many “asset providers” focus on originating and creating demand for RWAs across various asset classes such as real estate, equities, bonds, collectibles, etc. The figure depicts the vertical overview of the RWA and provides a clear picture to the users.
 
 ![](/img/picture4.png)
-
-
 
 ## **Advantages of RWAs:**
 
@@ -77,29 +69,17 @@ The RWA ecosystem is exceptionally diverse and expanding exponentially as more p
 
 **Valuation Challenges and Exit Strategy:** Determining the value of tokenized assets, especially those with unique characteristics, can be challenging and subjective. Many factors include a lack of historical and comparable data, market sentiment, intrinsic value, etc. Exiting an investment in tokenized assets might involve complexities related to selling tokens, finding buyers, and navigating market dynamics.
 
-
-
 ## **Current outlook and future trends:**
 
 The RWA market is in its infancy and indicates signs of increasing adoption and growing total value locked (“TVL”). Currently, RWAs are the 10th most significant sector in DeFi based on protocols tracked by DeFi Llama, gained a position from 13th place just a couple of weeks ago as of end-June. A significant contributor has been the launch of stUSDT in July, a protocol that allows stakers of USDT to receive yield based on RWAs.
 
-
-
 ![](/img/picture5.png)
-
-
 
 The tokenization of real-world assets (“RWAs”) has continued to gain traction with consistent user adoption and the entrance of prominent institutional players. Coupled with relatively low decentralized finance (“DeFi”) yields, rising interest rates have contributed to the uptake of RWAs, in tokenized treasuries. Investors are effectively lending over US$600M to the U.S. government today via the tokenized treasury market and receiving around a 4.2% annualized yield. Tokenized assets are estimated to be a US$16 trillion market by 2030, with huge potentia for growth and a notable increase from US$310B in 2022. With the present value of a total of US$ 900T, it depicts the future and unfathomable potential of the RWA.
 
-
-
 ![](/img/picture7.png)
 
-
-
 ![](/img/picture8.png)
-
-
 
 ## **Conclusion:**
 
