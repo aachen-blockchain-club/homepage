@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 
-import logo from "../img/logo-mint.svg";
+import logo from "../img/logo.png";
 import instagram from "../img/social/instagram.svg";
 import linkedin from "../img/social/linkedin.svg";
 import discord from "../img/social/discord.svg";
