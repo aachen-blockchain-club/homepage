@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
-import logo from "../img/logo.svg";
+import logo from "../img/logo.png";
 
 import Layout from "../components/Layout";
 import Features from "../components/Features";
@@ -38,7 +38,7 @@ export const IndexPageTemplate = ({ image, title, subheading, mainpitch, intro, 
                                     </div>
                                     <img
                                         className="column mx-auto my-6"
-                                        style={{ width: "10rem", opacity: 0.1 }}
+                                        style={{ width: "10rem", opacity: 0.4 }}
                                         src={logo}
                                         alt="Aachen Blockchain Club"
                                     />
@@ -51,16 +51,6 @@ export const IndexPageTemplate = ({ image, title, subheading, mainpitch, intro, 
                                         </div>
                                     </div>
                                     <Features gridItems={intro.blurbs} />
-                                    <div className="columns">
-                                        <div className="column has-text-centered is-12">
-                                            <Link
-                                                className="button"
-                                                to="/products"
-                                            >
-                                                See all products
-                                            </Link>
-                                        </div>
-                                    </div>
                                     <div className="column is-12">
                                         <h3 className="has-text-weight-semibold is-size-3-tablet is-size-4-mobile">
                                             {activity.heading}

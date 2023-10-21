@@ -51,7 +51,7 @@ export default function FullWidthImage(props) {
                 >
                     {/* Any content here will be centered in the component */}
                     {title && (
-                        <h1 className="has-background-primary is-capitalized is-primary is-size-1-widescreen is-size-2-tablet is-size-3-mobile pt-1 px-6 title-font">
+                        <h1 className="is-capitalized is-primary is-size-1-widescreen is-size-2-tablet is-size-3-mobile pt-1 px-6 title-font">
                             {title}
                         </h1>
                     )}
