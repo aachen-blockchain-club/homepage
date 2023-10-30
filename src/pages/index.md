@@ -35,11 +35,11 @@ intro:
         projects
     - image: /img/group-13.png
       text: Career development in the blockchain field
-  heading: Your Member Benefits!
-  description: Discover the future with Aachen Blockchain Club. We educate,
-    mentor, and connect. Learn blockchain from experts, dive into research, and
-    connect with traders. We're your link to the industry, opening doors to
-    opportunities. Join us, transform your knowledge, and shape the blockchain
+  heading: Member Benefits!
+  description: Discover the future with Aachen Blockchain Club. We educate, mentor
+    and connect. Learn blockchain from experts, dive into research or connect
+    with traders. We're your link to the industry, opening doors to
+    opportunities. Join us, transform your knowledge and shape the blockchain
     landscape.
 activity:
   description: Explore the latest updates on our club's events, initiatives, and
