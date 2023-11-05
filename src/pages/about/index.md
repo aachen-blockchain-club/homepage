@@ -9,7 +9,7 @@ At Aachen Blockchain Club, we actively shape the future of blockchain technology
 
 ## T﻿eam
 
-![](/img/kalender-monatlich.png)
+![](/img/teams-abc-homepage.jpg)
 
 ## Impressum
 
