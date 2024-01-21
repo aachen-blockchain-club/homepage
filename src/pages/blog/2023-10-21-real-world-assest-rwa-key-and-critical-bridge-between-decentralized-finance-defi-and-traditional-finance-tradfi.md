@@ -1,7 +1,6 @@
 ---
 templateKey: blog-post
-title: Real World Assets (RWAs)- Key bridge between decentralized and
-  traditional finance
+title: Potato
 date: 2023-10-21T17:06:45.719Z
 description: DeFi provides an immense potential for the untapped possibilities
   of Real World Assets.
