@@ -1,7 +1,7 @@
 ---
 templateKey: info-page
 path: /info
-title: Upcoming Events 🔥
+title: Upcoming Events
 ---
 # Upcoming Events
 
