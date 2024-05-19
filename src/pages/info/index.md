@@ -3,7 +3,7 @@ templateKey: info-page
 path: /info
 title: Upcoming Events
 ---
-Hey there! Check out all the cool events we have coming up. We’d love to see you there!
+Hey there 👋🏻 Check out all the cool events we have coming up. We’d love to see you there!
 
 ## Chainlink Workshop
 **Date:** [Specify Date]  
