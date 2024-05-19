@@ -16,7 +16,7 @@ Check out all the cool events we have coming up. We’d love to see you there!
 
 Join our Chainlink workshop to dive into the world of decentralized finance and smart contracts! Chainlink is a leading decentralized oracle network that enables smart contracts to securely interact with real-world data and services. In this workshop, you’ll learn how to build secure smart contracts, integrate real-world data using Chainlink's decentralized oracles, and use cryptographically secure randomness with VRF (Verifiable Random Function). Plus, you'll discover how to connect seamlessly with external APIs. This is a fantastic opportunity to enhance your blockchain skills and learn from the experts at Chainlink, a key player in the blockchain industry.
 
-Apply for the workshop here: [lu.ma/mv7vxf4b?tk=CHEjk9](https://lu.ma/mv7vxf4b?tk=CHEjk9)
+<div style="padding: 12px; background-color: #fdfa72; border-radius: 12px">Apply for the workshop here: <a href="https://lu.ma/mv7vxf4b?tk=CHEjk9">lu.ma/mv7vxf4b?tk=CHEjk9</a></div>
 
 ## Solana Ecosystem Call
 
