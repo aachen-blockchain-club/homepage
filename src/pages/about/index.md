@@ -15,7 +15,7 @@ At Aachen Blockchain Club, we actively shape the future of blockchain technology
 
 Angaben gemäß § 5 TMG 
 
-A﻿achen Blockchain Club e.V.\
+a﻿achen Blockchain Club e.V.\
 Pontwall 3\
 52062 Aachen
 
