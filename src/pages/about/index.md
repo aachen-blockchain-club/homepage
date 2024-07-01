@@ -9,6 +9,8 @@ At Aachen Blockchain Club, we actively shape the future of blockchain technology
 
 ## T﻿eam
 
+![](/img/ahoura_azarbin.png)
+
 ![](/img/mikolaj-radlinski.png)
 
 ![](/img/lennart-czardybon.png)
