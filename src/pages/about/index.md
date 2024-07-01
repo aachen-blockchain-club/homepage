@@ -11,13 +11,15 @@ At Aachen Blockchain Club, we actively shape the future of blockchain technology
 
 ![](/img/mikolaj-radlinski.png)
 
+![](/img/lennart-czardybon.png)
+
+
+
 ## H﻿all of Fame
 
 L﻿ist of former honorable ABC members:
 
 ![](/img/teams-abc-homepage.jpg)
-
-
 
 ## Impressum
 
