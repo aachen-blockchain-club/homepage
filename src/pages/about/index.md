@@ -13,7 +13,7 @@ At Aachen Blockchain Club, we actively shape the future of blockchain technology
 
 ![](/img/lennart-czardybon.png)
 
-
+![](/img/abc-team-website.png)
 
 ## H﻿all of Fame
 
