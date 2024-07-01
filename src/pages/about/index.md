@@ -9,13 +9,23 @@ At Aachen Blockchain Club, we actively shape the future of blockchain technology
 
 ## T﻿eam
 
+![](/img/mikolaj-radlinski.png)
+
+![](/img/lennart-czardybon.png)
+
+![](/img/abc-team-website.png)
+
+## H﻿all of Fame
+
+L﻿ist of former honorable ABC members:
+
 ![](/img/teams-abc-homepage.jpg)
 
 ## Impressum
 
 Angaben gemäß § 5 TMG 
 
-A﻿achen Blockchain Club e.V.\
+a﻿achen Blockchain Club e.V.\
 Pontwall 3\
 52062 Aachen
 
