@@ -15,6 +15,8 @@ At Aachen Blockchain Club, we actively shape the future of blockchain technology
 
 ![](/img/abc-team-website.png)
 
+![](/img/about-me.png)
+
 ## H﻿all of Fame
 
 L﻿ist of former honorable ABC members:
